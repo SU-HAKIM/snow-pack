@@ -2,10 +2,11 @@
 module.exports = {
   mount: {
     /* ... */
+    // directory name: 'build directory'
+    public: '/',
+    src: '/dist',
   },
-  plugins: [
-    /* ... */
-  ],
+  plugins: ['@snowpack/plugin-react-refresh', "@snowpack/plugin-sass", "@snowpack/plugin-babel"],
   routes: [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
@@ -23,4 +24,4 @@ module.exports = {
   buildOptions: {
     /* ... */
   },
-};
+}
