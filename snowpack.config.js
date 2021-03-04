@@ -6,7 +6,7 @@ module.exports = {
     public: '/',
     src: '/dist',
   },
-  plugins: ['@snowpack/plugin-react-refresh', "@snowpack/plugin-sass", "@snowpack/plugin-babel"],
+  plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-sass', '@snowpack/plugin-babel'],
   routes: [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},

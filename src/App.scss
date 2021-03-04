@@ -2,8 +2,11 @@
   text-align: center;
 }
 
+$color:green;
+
 .App p {
   margin: 0.4rem;
+  color: $color;
 }
 
 .App-logo {
@@ -31,6 +34,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
